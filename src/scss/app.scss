@@ -1,0 +1,122 @@
+@import './FullPomel.scss';
+@import './cartInformation.scss';
+
+.mainBlock {
+  display: flex;
+  width: 100%;
+  min-width: 600px; 
+  margin: 0 auto;
+  height: 850px;
+  padding: 18px;
+  flex-direction: column;
+  
+  
+  
+ 
+}
+
+body {
+  background: #2C2C2C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0; 
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-ponel {
+  width: 100%;
+  height: 100px;
+  gap: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  
+  
+  button{
+    width: 126px;
+    height: 52px;
+    border-radius: 5px;
+    background: #FF4646;
+    font-size: 24px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+  }
+  .input{
+    width: 374px;
+    height: 52px;
+    border: none;
+    font-size: 18px;
+    padding-left: 10px;
+    border-radius: 4px;
+    outline: none;
+    
+  }
+  
+}
+
+.ShowMore{
+  width: 540px;
+  height: 52px;
+  background-color: #FF4646;
+  margin: 0 auto;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 44px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.back{
+  
+  width: 540px;
+  height: 52px;
+  background-color: #FF4646;
+  margin: 0 auto;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 44px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.line{
+  width: 100%;
+  height: 4px;
+}
+
+
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 210.7vh;
+  background-image: url('https://s3-alpha-sig.figma.com/img/b335/80c2/a16e59707977f10a2e6c9fe4f126865b?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UBOoAcg1T1UHAGd4wnnnonP0WQq~8vG6WHCoYTXMQSEeIMfm471TSSD9dQjLUk4rPOP3nV7PMxNjKg02IkQYNAY~2LgcdjY3XZHyMqgUWBJu3h4rSy4jYPx3XDYP57YHtKLKlMMXHulKboWgAkh4ndZJicg7~EVv81gkIxhqDuqhUaTl0UI8gbOGAy9TTIXDNqLXDm603y9i2hjnhwsXVc8PI0hvBfl2Lmc~Yh~vZalAN4XGTk9E7GGzPp8lYtk8VP5d5LAo9K7i2Muf5-D5xuL9eYpvTShmgvfqFoksZKUamxiTxezZhcWtGH4WmiEWUYyCnI~3s2cpzxLo6YXG-Q__'); /* Укажите путь к вашей фотографии */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.error-message {
+  color: white;
+  text-align: center;
+}
+
+.eror{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #666565;
+}

@@ -1,0 +1,77 @@
+.dungens{
+  
+  max-width: 543px;
+  height: 141px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 10px;
+  h1 {
+    position: absolute;
+    z-index: 2;
+    color: red;
+    left: 15px;
+    
+
+  }
+  .linkPonel {
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    background: red;
+    width: 100%;
+    height: 40px;
+    opacity: 0.4;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-weight: 700;
+    text-decoration: none;
+    z-index: 3;
+    cursor: pointer;
+
+    h3{
+      margin-right: 10px;
+      color: white;
+      outline: none;
+    }
+    img{
+      width: 30px;
+      font-size: 16px;
+    }
+  }
+  .blackout{
+    background: #00000099;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    border-radius: 6px;
+    z-index: 1;
+  }
+  .stars{
+    position: absolute;
+    right: 30px;
+    
+    width: 90px;
+    display: flex;
+    gap: 7px;
+    top: 20px;
+    z-index: 3;
+  }
+  
+  img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+  }
+}
+
+.block_dangens{
+  width: 100%;
+  border-radius: 15px;
+  height: 80%;
+  overflow-y: auto;
+  
+}
